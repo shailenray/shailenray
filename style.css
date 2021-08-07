@@ -1,0 +1,83 @@
+body{
+    background-image: url('brownbg.jpg');
+    color: #3c00ff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+form{
+    width: 700px;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 7%;
+    background: linear-gradient(to right, gray, silver, gray);
+    box-shadow: 0px 0px 20px #000;
+    position: relative;
+}
+.form_tab{
+    height: 300px;
+    margin-left: 9%;
+    margin-top: 3%;
+    background: linear-gradient(to right, red, green, red);
+    position:absolute;
+
+}
+form table tr .std_data{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: right;
+    background: linear-gradient(to left, transparent, darkgreen);
+    text-shadow: 1px 1px 1.5px #000;
+}
+
+form input{
+    background: transparent;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;   
+}
+.btn{
+    background: linear-gradient(400deg, red, green 60%);
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    width: 150px;
+    padding: 8px;
+}
+
+/* .btn{
+    background: #ff008c;
+    padding: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: -30px;
+    text-shadow: 1.5px 1.5px 2px #000;
+    position: absolute;
+} */
+
+/* form level:nth-child(1){
+    background: #808000;
+    text-shadow: 1px 1px 2px #fff;
+}
+form level:nth-child(3){
+    background: #181818;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+ */
+/* 
+.inp_box1{margin-left: 8%;}
+.inp_box2{margin-left: 11%;}
+.inp_box3{margin-left: 8%;}
+.inp_box4{margin-left: 8%;}
+.inp_box5{margin-left: 8%;}
+.submit_btn{margin-left: 5%;} 
+*/
